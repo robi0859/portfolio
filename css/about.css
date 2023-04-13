@@ -2,12 +2,12 @@ body {
     background-color: rgb(183, 216, 181);
 }
 
-.header1 {
+.header2 {
     width: 100%;
     height: auto;
 }
 
-.synrro {
+.me {
     width: 400px;
     height: 500px;
     display: block;
@@ -15,10 +15,22 @@ body {
     margin-right: auto;
 }
 
-.homenav {
+.about {
+    width: 800px;
+    height: 545px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutnav {
     font-size: 40px;
 }
 
 .text {
     font-size: 20px;
+}
+
+.h2{
+    font-size: 50px;
 }
