@@ -3,53 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Midterm</title>
-    <!-- Include Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-4vpaFwrzV8AclKjQzV7Gqs3qZfO8LTVULGWNzoPpxnU6UpyU6ApxezOwKU6Fh2cl" crossorigin="anonymous">
-    <!-- Include custom CSS variables -->
-    <link rel="stylesheet" href="css/main.css">
-    <style>
-        :root {
-            --primary-color: #007bff;
-            --secondary-color: #6c757d;
-            --body-color: #f8f9fa;
-        }
-    </style>
-    <!-- Include additional CSS libraries -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-RskZf0tUhFKFBGdM9NY5r5r5ns5yNVwY/R/1tK2ntSXZ8VptZbslTwFLef/s9NzwJyop8azB+2wUSYkjHljF5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
     <header>
-        <img class="header1" src="images/dfswerfgswer.png" alt="synrro with dinosaurs">
-        <nav class="homenav">
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
-        </nav>
-        <nav class="navbar bg-body-tertiary">
-          <div class="container-fluid">
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
-        </nav>
-        <nav>
-          <ul>
-            <li><a href="#main">Skip to main content</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Synrro's Video Production</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-      <div>
-        <h1 class="h1" id="main" role="main">
-          Let's use video to tell your story
-        </h1>
-        <img class="synrro" src="images/Untitled design (2).png" alt="logo">
+    <main class="container">
+      <section class="row">
+          <div class="col-lg-6">
+              <h1 class="display-4">Let's use video to tell your story.</h1>
+              <p class="lead">Storytelling has been a part of human history since the beginning of time. Whether it’s been through books, or acting, or even as simple as a bedtime story. Hi my name is Ciara Robinson and I would love to tell all stories through my videography. Through my company Synrro and your specifications we can make your story come to life. Whether you are looking for a story to sell a product, creating a cherished memory for loved ones, or even preserving the most important highlights of your life I got your back. Using my technology you will receive a digital copy of your perfect story.</p>
+          </div>
+          <div class="col-lg-6">
+              <img src="images/sdssd.png" alt="product picture" class="img-fluid rounded-circle">
+          </div>
+      </section>
+  </main>
+  
+  <footer class="bg-dark text-white py-3">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6">
+                  <p>Copyright © 2023 
+                      <a href="#">My Portfolio</a>. All Rights Reserved.
+                  </p>
+              </div>
+              <div class="col-md-6">
+                  <p class="text-end">Designed and Developed by 
+                      <a href="#">Jane Doe</a>
+                  </p>
+              </div>
+          </div>
       </div>
-      <div class="text">
-        <p>
-          Storytelling has been a part of human history since the beginning of time. Whether it’s been through books, or acting, or even as simple as a bedtime story. Hi my name is Ciara Robinson and I would love to tell all stories through my videography. Through my company Synrro and your specifications we can make your story come to life. Whether you are looking for a story to sell a product, creating a cherished memory for loved ones, or even preserving the most important highlights of your life I got your back. Using my technology you will receive a digital copy of your perfect story.
-        </p>
-      </div>
+  </footer>
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
