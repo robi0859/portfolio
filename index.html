@@ -11,8 +11,12 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
@@ -33,26 +37,40 @@
             </div>
         </nav>
     </header>
-    <main class="container">
+    <main class="container" id="main-content" tabindex="-1">
       <section class="row">
-          <div class="col-lg-6">
+          <div class="col-md-6">
               <h1 class="display-4">Let's use video to tell your story.</h1>
-              <p class="lead">Storytelling has been a part of human history since the beginning of time. Whether it’s been through books, or acting, or even as simple as a bedtime story. Hi my name is Ciara Robinson and I would love to tell all stories through my videography. Through my company Synrro and your specifications we can make your story come to life. Whether you are looking for a story to sell a product, creating a cherished memory for loved ones, or even preserving the most important highlights of your life I got your back. Using my technology you will receive a digital copy of your perfect story.</p>
+              <p class="fs-5 fs-md-4 fs-lg-3">Storytelling has been a part of human history since the beginning of time. Whether it’s been through books, or acting, or even as simple as a bedtime story. Hi my name is Ciara Robinson and I would love to tell all stories through my videography. Through my company Synrro and your specifications we can make your story come to life. Whether you are looking for a story to sell a product, creating a cherished memory for loved ones, or even preserving the most important highlights of your life I got your back. Using my technology you will receive a digital copy of your perfect story.</p>
           </div>
-          <div class="col-lg-6">
-              <img src="images/sdssd.png" alt="Product Picture of Synrro's Video Production" class="img-fluid rounded-circle">
+          <div class="col-md-6">
+              <picture>
+                <source srcset="images/sdssd-500.png" media="(max-width: 500px)">
+                <source srcset="images/sdssd-800.png" media="(max-width: 800px)">
+                <source srcset="images/sdssd-1200.png" media="(max-width: 1200px)">
+                <img src="images/sdssd.png" alt="Product Picture of Synrro's Video Production" class="img-fluid rounded-circle">
+              </picture>
           </div>
       </section>
   </main>
-  
   <footer class="bg-dark text-white py-3">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-6">
-                  <p>&copy; 2023 
-                      <a href="#" role="link" aria-label="Link to Synrro's video production website">Synrro's video production</a>. All Rights Reserved.
-                  </p>
-              </div>
-              <div class="col-md-6">
-                  <p class="text-end">Designed and Developed by 
-                      <a href="#" role="link" aria-label="Link to
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>Copyright © 2023 
+            <a href="#">Synrro's video production</a>. All Rights Reserved.
+          </p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <p>Designed and Developed by 
+            <a href="#">Ciara Robinson</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/js/bootstrap.bundle
+</body>
+</html>
