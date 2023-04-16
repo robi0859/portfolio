@@ -7,4 +7,6 @@ Tell us about your process, challenges you faced during development and how you 
 
 # H1 assests
 
-- I used the serch bar from: https://getbootstrap.com/docs/5.3/components/navbar/
+- https://getbootstrap.com/2.0.2/
+- https://michalsnik.github.io/aos/
+- 
